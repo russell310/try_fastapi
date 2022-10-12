@@ -44,4 +44,4 @@ aerich upgrade
 uvicorn asgi:app --reload
 ```
 
-9. Api docs [localhost](http://localhost:8000/docs)
+9. GraphQL playground [link](http://localhost:8000/graphql)
