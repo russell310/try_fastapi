@@ -1,11 +1,9 @@
 *.sqlite3
-*.sql
 .idea
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*migrations/0*
 # C extensions
 *.so
 *.json
@@ -94,8 +92,4 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# Docker Setup
-config/
-docker-compose.yml
-Dockerfile
 
