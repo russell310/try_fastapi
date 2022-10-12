@@ -3,10 +3,6 @@
 1. Clone this project
 2. Enter to project
 
-```sh
-cd fastapi-research
-```
-
 3. Create Virtualenv
 
 ```sh
