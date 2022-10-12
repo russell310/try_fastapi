@@ -1,13 +1,11 @@
+import strawberry
 from fastapi import FastAPI
-
 from apps.user import users_router
 from project.database import init_db
-import strawberry
 from strawberry.fastapi import GraphQLRouter
 from strawberry.schema.config import StrawberryConfig
-
-from schemas.mutations import Mutation
-from schemas.queries import Query
+from project.mutations import Mutation
+from project.queries import Query
 
 schema = strawberry.Schema(query=Query, mutation=Mutation, config=StrawberryConfig(auto_camel_case=True))
 

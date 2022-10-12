@@ -5,7 +5,7 @@ from apps.user.resolvers import add_user, delete_user, update_user
 
 
 @strawberry.type
-class Mutation:
+class UserMutation:
     @strawberry.mutation
     async def add_user(self, username: str, name: str, email: str) -> AddUserResponse:
         add_user_resp = await add_user(username=username, name=name, email=email)
