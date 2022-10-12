@@ -1,0 +1,5 @@
+aerich
+fastapi
+tortoise-orm
+uvicorn[standard]
+strawberry-graphql[fastapi]
