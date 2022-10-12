@@ -1,5 +1,4 @@
 *.sqlite3
-pyproject.toml
 *.sql
 .idea
 # Byte-compiled / optimized / DLL files
