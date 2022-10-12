@@ -1,4 +1,5 @@
-### FastAPI research
+### FastAPI Project template
+#### From small to big projects
 
 1. Clone this project
 2. Enter to project
